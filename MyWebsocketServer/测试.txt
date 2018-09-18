@@ -1,0 +1,20 @@
+var ws = new WebSocket("ws://localhost:9301/test");
+ws.onmessage = function (evt) {
+    console.log('收到消息：',evt.data);
+};
+
+ws.onclose = function(evt){
+    console.log('服务断开');
+};
+
+ws.onopen = function(evt){
+    console.log('连接成功');
+};
+
+var send = (msg) => {
+    ws.send(JSON.stringify(msg));
+};
+
+send({
+    content: 'hello'
+});

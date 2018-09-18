@@ -1,0 +1,4 @@
+{"type":1,"toId":1,"content":"hello"}
+{"type":1,"toId":2,"content":"hello"}
+{"type":1,"toId":3,"content":"hello"}
+{"type":2,"toId":1,"url":"[假装是图片链接]","desc":"[图片描述]"}

@@ -1,0 +1,9 @@
+server:
+  port: 9200
+  servlet:
+    context-path: /chatClient
+  tomcat:
+    uri-encoding: UTF-8
+
+netty:
+  port: 9101
